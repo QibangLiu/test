@@ -22,6 +22,9 @@ import torch.nn.functional as F
 CACHE_SAMPLE_AND_GROUP_INDECIES = {}
 
 def timeit(tag, t):
+    """
+    print time
+    """
     print("{}: {}s".format(tag, time() - t))
     return time()
 
